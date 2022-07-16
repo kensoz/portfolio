@@ -1,6 +1,9 @@
 {
+  "name": "portfolio",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": "renhou",
+  "license": "GPL",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

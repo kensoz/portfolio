@@ -27,7 +27,7 @@
       <footer class="text-center text-xs my-4">
         <span>&copy; renhou</span>
         <span class="mx-2 text-amber-300"><fa-icon icon="star" size="xs" /></span>
-        <span><a href="" class="hover:underline">about site</a></span>
+        <span><a href="https://github.com/kensoz/portfolio" class="hover:underline">about site</a></span>
       </footer>
     </div>
   </div>
