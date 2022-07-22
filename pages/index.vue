@@ -35,7 +35,7 @@ const config = [
     text3: '',
     text3Link: '#'
   },
-  { id: 5, icon: 'cube', text1: 'BLOG', text1Link: '/', text2: '', text2Link: '#', text3: '', text3Link: '#' },
+  { id: 5, icon: 'cube', text1: 'BLOG', text1Link: 'https://kensoz.github.io/blog/', text2: '', text2Link: '#', text3: '', text3Link: '#' },
   {
     id: 6,
     icon: 'cubes',
