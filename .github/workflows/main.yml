@@ -24,4 +24,4 @@ jobs:
         with:
           # Branch: gh-pages
           target_branch: gh-pages
-          build_dir: /dist
+          build_dir: .output/public
