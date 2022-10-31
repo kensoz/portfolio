@@ -9,12 +9,12 @@
         </div>
 
         <div>
-          <button class="flex justify-center pt-1.5 pb-1 px-4 text-sm font-semibold rounded bg-gray-200 hover:bg-gray-300" @click="jump()">
+          <a class="flex justify-center pt-1.5 pb-1 px-4 text-sm font-semibold rounded bg-gray-200 hover:bg-gray-300" href="https://github.com/kensoz">
             <span>
               <fa-icon :icon="['fab', 'github']" size="lg" />
               GitHub
             </span>
-          </button>
+          </a>
         </div>
       </header>
 
@@ -35,10 +35,4 @@
 
 <script lang="ts" setup>
 import { img } from '../data/index'
-
-// ----- リンク -----
-const GitHub = 'https://github.com/kensoz'
-const jump = (): void => {
-  window.location.href = GitHub
-}
 </script>
