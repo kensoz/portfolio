@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center mb-2 text-lg font-semibold">
     <div class="mr-5">
-      <fa-icon :icon="props.icon" size="md" />
+      <fa-icon :icon="props.icon" />
     </div>
 
     <div class="mr-2">

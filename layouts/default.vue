@@ -1,11 +1,11 @@
 <template>
-  <!-- Nuxt Layout -->
-  <div class="flex justify-center h-screen w-full font-murecho text-gray-500 bg-gray-50">
+  <div class="flex justify-center h-screen w-full text-gray-500 bg-gray-50">
+    <!-- Nuxt Layout -->
     <div class="flex flex-col h-full w-full md:w-9/12 sm:w-11/12 mx-3">
       <!-- Header -->
       <header class="flex justify-between items-center my-4">
         <div>
-          <img class="w-10 h-auto rounded" src="/logo.png" alt="Logo" />
+          <img class="w-9 h-auto rounded" src="/logo.png" alt="Logo" />
         </div>
 
         <div>
@@ -19,14 +19,14 @@
       </header>
 
       <!-- main contents -->
-      <main class="flex-grow flex justify-center items-center">
+      <main class="flex-grow flex justify-center items-center mb-5">
         <slot />
       </main>
 
       <!-- Footer -->
       <footer class="text-center text-xs my-4">
         <span>&copy; renhou</span>
-        <span class="mx-2 text-amber-300"><fa-icon icon="star" size="xs" /></span>
+        <span class="mx-2">🍅</span>
         <span><a href="https://github.com/kensoz/portfolio" class="hover:underline">about site</a></span>
       </footer>
     </div>
