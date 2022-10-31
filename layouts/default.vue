@@ -5,7 +5,7 @@
       <!-- Header -->
       <header class="flex justify-between items-center my-4">
         <div>
-          <img class="w-9 h-auto rounded" src="/portfolio/logo.png" alt="Logo" />
+          <img class="w-9 h-auto rounded" :src="img" alt="Logo" />
         </div>
 
         <div>
@@ -34,6 +34,8 @@
 </template>
 
 <script lang="ts" setup>
+import { img } from '../data/index'
+
 // ----- リンク -----
 const GitHub = 'https://github.com/kensoz'
 const jump = (): void => {

@@ -20,17 +20,5 @@
 </template>
 
 <script lang="ts" setup>
-// ----- data -----
-interface IData {
-  id: number
-  icon: string
-  text1: string
-  text1Link: string
-  text2: string
-  text2Link: string
-  text3: string
-  text3Link: string
-}
-
-const { data } = await useFetch<IData[]>('/portfolio/index.json')
+import { data } from '../data/index'
 </script>
