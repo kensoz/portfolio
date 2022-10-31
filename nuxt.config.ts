@@ -3,6 +3,12 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   ssr: false,
 
+  target: 'static',
+
+  router: {
+    base: '/<repository-name>/'
+  },
+
   app: {
     head: {
       title: 'RenHou',
