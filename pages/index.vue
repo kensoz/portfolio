@@ -32,5 +32,5 @@ interface IData {
   text3Link: string
 }
 
-const { data } = await useFetch<IData[]>('../public/data/index.json')
+const { data } = await useFetch<IData[]>('/portfolio/index.json')
 </script>

@@ -5,7 +5,7 @@
       <!-- Header -->
       <header class="flex justify-between items-center my-4">
         <div>
-          <img class="w-9 h-auto rounded" src="/logo.png" alt="Logo" />
+          <img class="w-9 h-auto rounded" src="/portfolio/logo.png" alt="Logo" />
         </div>
 
         <div>

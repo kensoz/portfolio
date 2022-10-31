@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  // ssr: false,
   target: 'static',
+
   router: {
     base: '/portfolio/'
   },
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'renhou portfolio site' }
       ],
-      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
+      link: [{ rel: 'icon', type: 'image/png', href: '/portfolio/favicon.png' }]
     }
   },
 
