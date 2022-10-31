@@ -1,13 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  target: 'static',
-
-  router: {
-    base: '/portfolio/'
-  },
-
   app: {
+    baseURL: '/portfolio/',
     head: {
       title: 'RenHou',
       meta: [
