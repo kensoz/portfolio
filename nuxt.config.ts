@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   target: 'static',
 
   router: {
-    base: '/<repository-name>/'
+    base: '/portfolio/'
   },
 
   app: {
