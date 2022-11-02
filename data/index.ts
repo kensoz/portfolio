@@ -34,7 +34,7 @@ const data: IData[] = [
   {
     id: 3,
     icon: 'briefcase',
-    text1: 'Web Front-End Engineer',
+    text1: 'Web Front-End Developer',
     text1Link: '#',
     text2: '',
     text2Link: '#',
