@@ -25,7 +25,7 @@ yarn install
 
 ##### 開発
 
-[http://localhost:3000/portfolio/](http://localhost:3000/portfolio/)で起動
+[http://localhost:3000/portfolio](http://localhost:3000/portfolio/)で起動
 
 ```bash
 yarn dev
