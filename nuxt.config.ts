@@ -15,19 +15,16 @@ export default defineNuxtConfig({
   },
 
   css: ['@/style/index.css', '@fortawesome/fontawesome-svg-core/styles.css'],
-
   plugins: ['@/plugins/fontawesome.ts'],
+  // modules: ['@nuxt/postcss8'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
 
   build: {
-    transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/vue-fontawesome'],
-
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {}
-        }
-      }
-    }
+    transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/vue-fontawesome']
   }
 })
