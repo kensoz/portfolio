@@ -13,17 +13,9 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/portfolio/favicon.png' }]
     }
   },
-
-  css: ['@/style/index.css', '@fortawesome/fontawesome-svg-core/styles.css'],
+  modules: ['@nuxtjs/tailwindcss'],
   plugins: ['@/plugins/fontawesome.ts'],
-  // modules: ['@nuxt/postcss8'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {}
-    }
-  },
-
+  css: ['@/style/index.css', '@fortawesome/fontawesome-svg-core/styles.css'],
   build: {
     transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/vue-fontawesome']
   }
