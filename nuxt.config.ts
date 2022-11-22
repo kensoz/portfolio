@@ -13,10 +13,21 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/portfolio/favicon.png' }]
     }
   },
-  modules: ['@nuxtjs/tailwindcss'],
-  plugins: ['@/plugins/fontawesome.ts'],
+
   css: ['@/style/index.css', '@fortawesome/fontawesome-svg-core/styles.css'],
+
+  plugins: ['@/plugins/fontawesome.ts'],
+
   build: {
-    transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/vue-fontawesome']
+    transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/vue-fontawesome'],
+
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {}
+        }
+      }
+    }
   }
 })
