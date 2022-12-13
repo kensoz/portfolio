@@ -57,7 +57,7 @@
     <!-- blog -->
     <div class="mb-2 flex items-center text-lg font-semibold">
       <div class="mr-5">
-        <font-awesome-icon icon="circle-nodes" />
+        <font-awesome-icon icon="cube" />
       </div>
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
