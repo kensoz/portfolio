@@ -14,6 +14,7 @@ import AppHome from './page/AppHome.vue'
           <a
             class="flex justify-center rounded bg-gray-200 px-4 pt-1.5 pb-1 text-sm font-semibold hover:bg-gray-300"
             href="https://github.com/kensoz"
+            target="_blank"
           >
             <span>
               <font-awesome-icon :icon="['fab', 'github']" size="lg" />

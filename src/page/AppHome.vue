@@ -46,11 +46,11 @@
       </div>
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
-        <a href="https://www.wantedly.com/id/kensoz">Wantedly,</a>
+        <a href="https://www.wantedly.com/id/kensoz" target="_blank">Wantedly,</a>
       </div>
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
-        <a href="https://jp.linkedin.com/in/kensoz">Linkedin</a>
+        <a href="https://jp.linkedin.com/in/kensoz" target="_blank">Linkedin</a>
       </div>
     </div>
 
@@ -61,11 +61,11 @@
       </div>
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
-        <a href="https://kensoz.github.io/blog/">BLOG,</a>
+        <a href="https://kensoz.github.io/blog/" target="_blank">BLOG,</a>
       </div>
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
-        <a href="https://qiita.com/kensoz">Qiita</a>
+        <a href="https://qiita.com/kensoz" target="_blank">Qiita</a>
       </div>
     </div>
   </section>
