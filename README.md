@@ -7,12 +7,13 @@
 
 ## スタック
 
-- ⚡️ Nuxt.js 3
+- ⚡️ Vue.js
+
 - ⚙️ TypeScript
-- 🎨 TailwindCSS 3
-- 📑 Eslint + Prettier
-- 🔩 GitHub Actions
-- 📦 Yarn
+
+- 🎨 TailwindCSS
+
+  
 
 ## 使用
 
@@ -30,14 +31,9 @@ yarn install
 yarn dev
 ```
 
-##### server build
+##### ビルド
 
 ```bash
 yarn build
 ```
 
-##### pubic build
-
-```bash
-yarn generate
-```
