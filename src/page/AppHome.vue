@@ -45,9 +45,9 @@
         <font-awesome-icon icon="circle-nodes" />
       </div>
 
-      <div class="mr-2 hover:text-gray-400 hover:underline">
+      <!-- <div class="mr-2 hover:text-gray-400 hover:underline">
         <a href="https://www.wantedly.com/id/kensoz" target="_blank">Wantedly,</a>
-      </div>
+      </div> -->
 
       <div class="mr-2 hover:text-gray-400 hover:underline">
         <a href="https://jp.linkedin.com/in/kensoz" target="_blank">Linkedin</a>
