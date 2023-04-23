@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <!-- blog -->
+    <!-- blog 
     <div class="mb-2 flex items-center text-lg font-semibold">
       <div class="mr-5">
         <font-awesome-icon icon="cube" />
@@ -68,5 +68,6 @@
         <a href="https://qiita.com/kensoz" target="_blank">Qiita</a>
       </div>
     </div>
+    -->
   </section>
 </template>
